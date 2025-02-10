@@ -48,8 +48,8 @@ nav {
 .p {
     display: flex;
     position: absolute;
-    right: 58%;
-    width: 30%;
+    right: 33%;
+    width: 52%;
     height: 30%;
     font-weight: 500;
     font-family: poppins;
@@ -58,8 +58,8 @@ nav {
 .p2 {
     display: flex;
     position: absolute;
-    left: 58%;
-    width: 30%;
+    left: 33%;
+    width: 52%;
     height: 30%;
     font-weight: 500;
     font-family: poppins;
