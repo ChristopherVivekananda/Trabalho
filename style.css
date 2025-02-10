@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(197, 197, 197);
+    
+}
+
+section {
+    padding: 1rem 1%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    width: 100%;
+    height: 8vh;
+    background: white;
+    position: fixed;
+    top: -0.01%;
+    left: -0.01%;
+    z-index: 10;
+}
+
+.logo {
+    display: flex;
+    position: absolute;
+    top: 15%;
+    left: 47%;
+    text-align: center;
+    align-self: center;
+    text-decoration: none;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: xx-large;
+    color: black;
+}
+
+.home {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    border: 2px solid rgb(122, 122, 122);
+    background-color: rgb(224, 224, 224);
+    z-index: -1;
+    gap: 1;
+}
+
+.p {
+    display: flex;
+    position: absolute;
+    right: 58%;
+    width: 30%;
+    height: 30%;
+    font-weight: 500;
+    font-family: poppins;
+}
+
+.p2 {
+    display: flex;
+    position: absolute;
+    left: 58%;
+    width: 30%;
+    height: 30%;
+    font-weight: 500;
+    font-family: poppins;
+}
+
+.home img{
+    position: absolute;
+    scale: 20%;
+    left: 52%;
+    border: 5px solid rgb(122, 122, 122);
+    border-radius: 50%;
+}
+
+.home2 {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    border: 2px solid rgb(122, 122, 122);
+    background-color: rgb(224, 224, 224);
+    z-index: -1;
+    gap: 1;
+}
+
+.home2 img{
+    position: absolute;
+    scale: 20%;
+    left: -5%;
+    border: 5px solid rgb(122, 122, 122);
+    border-radius: 50%;
+}
